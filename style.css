@@ -1,0 +1,99 @@
+body {
+    background-color: #f7e03b;
+    display: flex;
+    justify-content: center;
+    transition-duration: 1s;
+
+}
+
+.app {
+    margin-top: 150px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 14px 15px 7px -8px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 14px 15px 7px -8px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 14px 15px 7px -8px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+}
+
+.card {
+    height: 100%;
+    width: 300px;
+}
+
+.slider {
+    height: 344px;
+    width: 900px;
+    display: flex;
+    transition-duration: 0.5s;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50%;
+}
+
+img {
+    height: 50%;
+}
+
+.text {
+    height: 50%;
+    border-bottom: #dbdbdb solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.line {
+    width: 70%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #dbdbdb;
+}
+
+.line-small {
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+    height: 10%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    height: 100%;
+    width: 33%;
+}
+
+.end {
+    height: 3%;
+    display: flex;
+    align-items: end;
+    margin-left: 0;
+}
+
+.scroll {
+    width: 100px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #dbdbdb;
+}
+
+.script, .html, .css {
+    height: 60%;
+    opacity: 50%;
+}
+
+.connect {
+    height: 75%;
+    opacity: 100%;
+}
+
